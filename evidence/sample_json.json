@@ -1,0 +1,54 @@
+{
+  "elapsed_seconds": 0.0014631039999812856,
+  "files": [
+    {
+      "blank": 0,
+      "code": 4,
+      "comment": 4,
+      "digest": "ad652e07fa3872d313df0bc44677bf278c51c3c22f74d515f69e48d8425e5351",
+      "ignored": false,
+      "language": "JavaScript",
+      "path": "tests/fixtures/app.js",
+      "reason": "",
+      "size_bytes": 92,
+      "total": 8
+    },
+    {
+      "blank": 2,
+      "code": 5,
+      "comment": 1,
+      "digest": "347258de89583dc9e9c7b593d28e3fb05376869d40963f53b8f712e30b41b93d",
+      "ignored": false,
+      "language": "Python",
+      "path": "tests/fixtures/example.py",
+      "reason": "",
+      "size_bytes": 121,
+      "total": 8
+    }
+  ],
+  "languages": [
+    {
+      "blank": 2,
+      "code": 5,
+      "comment": 1,
+      "files": 1,
+      "language": "Python",
+      "total": 8
+    },
+    {
+      "blank": 0,
+      "code": 4,
+      "comment": 4,
+      "files": 1,
+      "language": "JavaScript",
+      "total": 8
+    }
+  ],
+  "root": "tests/fixtures",
+  "total_blank": 2,
+  "total_code": 9,
+  "total_comment": 5,
+  "total_files": 2,
+  "total_ignored": 0,
+  "total_physical": 16
+}

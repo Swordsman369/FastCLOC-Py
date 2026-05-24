@@ -1,0 +1,7 @@
+Language     files    blank   comment     code
+----------------------------------------------
+Python           1        2         1        5
+JavaScript       1        0         4        4
+----------------------------------------------
+SUM              2        2         5        9
+Ignored files: 0; elapsed: 0.0014s

@@ -1,0 +1,56 @@
+8fdeea9 Initial Python rewrite of cloc core functions
+ LICENSE                                            |   21 +
+ README.md                                          |   37 +
+ docs/TEST_RECORD.md                                |   17 +
+ docs/USAGE.md                                      |   23 +
+ evidence/file_tree.txt                             |   38 +
+ evidence/loc.txt                                   |    1 +
+ evidence/loc_txt_screenshot.png                    |  Bin 0 -> 3349 bytes
+ evidence/sample_json.json                          |   54 +
+ evidence/sample_table.txt                          |    7 +
+ evidence/sample_table_txt_screenshot.png           |  Bin 0 -> 12496 bytes
+ evidence/unit_test.log                             |   18 +
+ evidence/unit_test_log_screenshot.png              |  Bin 0 -> 42585 bytes
+ pyproject.toml                                     |   29 +
+ src/fastcloc/__init__.py                           |   16 +
+ src/fastcloc/__pycache__/__init__.cpython-313.pyc  |  Bin 0 -> 517 bytes
+ src/fastcloc/__pycache__/api.cpython-313.pyc       |  Bin 0 -> 1732 bytes
+ src/fastcloc/__pycache__/cli.cpython-313.pyc       |  Bin 0 -> 3579 bytes
+ src/fastcloc/__pycache__/comments.cpython-313.pyc  |  Bin 0 -> 6896 bytes
+ src/fastcloc/__pycache__/counter.cpython-313.pyc   |  Bin 0 -> 3236 bytes
+ src/fastcloc/__pycache__/detector.cpython-313.pyc  |  Bin 0 -> 3630 bytes
+ src/fastcloc/__pycache__/diff.cpython-313.pyc      |  Bin 0 -> 3290 bytes
+ src/fastcloc/__pycache__/languages.cpython-313.pyc |  Bin 0 -> 30169 bytes
+ src/fastcloc/__pycache__/models.cpython-313.pyc    |  Bin 0 -> 15677 bytes
+ src/fastcloc/__pycache__/reporters.cpython-313.pyc |  Bin 0 -> 6004 bytes
+ src/fastcloc/__pycache__/scanner.cpython-313.pyc   |  Bin 0 -> 1929 bytes
+ src/fastcloc/__pycache__/security.cpython-313.pyc  |  Bin 0 -> 3420 bytes
+ src/fastcloc/__pycache__/utils.cpython-313.pyc     |  Bin 0 -> 3000 bytes
+ src/fastcloc/api.py                                |   27 +
+ src/fastcloc/cli.py                                |   56 +
+ src/fastcloc/comments.py                           |  143 +
+ src/fastcloc/counter.py                            |   60 +
+ src/fastcloc/detector.py                           |   71 +
+ src/fastcloc/diff.py                               |   42 +
+ src/fastcloc/languages.py                          | 3352 ++++++++++++++++++++
+ src/fastcloc/models.py                             |  287 ++
+ src/fastcloc/project.py                            |   55 +
+ src/fastcloc/py.typed                              |    0
+ src/fastcloc/reporters.py                          |   74 +
+ src/fastcloc/scanner.py                            |   33 +
+ src/fastcloc/security.py                           |   57 +
+ src/fastcloc/utils.py                              |   52 +
+ .../test_cli_integration.cpython-313.pyc           |  Bin 0 -> 2264 bytes
+ tests/__pycache__/test_counter.cpython-313.pyc     |  Bin 0 -> 2654 bytes
+ tests/__pycache__/test_detector.cpython-313.pyc    |  Bin 0 -> 1573 bytes
+ tests/__pycache__/test_reporters.cpython-313.pyc   |  Bin 0 -> 2428 bytes
+ tests/__pycache__/test_security.cpython-313.pyc    |  Bin 0 -> 1847 bytes
+ tests/fixtures/app.js                              |    8 +
+ tests/fixtures/example.py                          |    8 +
+ tests/test_cli_integration.py                      |   36 +
+ tests/test_counter.py                              |   44 +
+ tests/test_detector.py                             |   20 +
+ tests/test_reporters.py                            |   33 +
+ tests/test_security.py                             |   24 +
+ tools/count_effective_loc.py                       |   29 +
+ 54 files changed, 4772 insertions(+)

@@ -1,0 +1,52 @@
+7684e3f Finalize clean evidence set
+ evidence/git_full_record.txt | 3 +++
+ evidence/git_status.txt      | 2 --
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+a9f5f6f Refresh repository status evidence
+ evidence/git_full_record.txt | 3 +++
+ 1 file changed, 3 insertions(+)
+373e1d4 Add reproducible evidence records
+ evidence/git_full_record.txt | 128 ++++++++++++++-----------------------------
+ 1 file changed, 42 insertions(+), 86 deletions(-)
+823aeea Initial Python rewrite of cloc core functions
+ .gitignore                               |    7 +
+ LICENSE                                  |   21 +
+ README.md                                |   37 +
+ docs/TEST_RECORD.md                      |   17 +
+ docs/USAGE.md                            |   23 +
+ evidence/file_tree.txt                   |   38 +
+ evidence/git_commit_record.txt           |   56 +
+ evidence/git_full_record.txt             |   86 +
+ evidence/git_status.txt                  |    2 +
+ evidence/loc.txt                         |    1 +
+ evidence/loc_txt_screenshot.png          |  Bin 0 -> 3349 bytes
+ evidence/sample_json.json                |   54 +
+ evidence/sample_table.txt                |    7 +
+ evidence/sample_table_txt_screenshot.png |  Bin 0 -> 12496 bytes
+ evidence/unit_test.log                   |   18 +
+ evidence/unit_test_log_screenshot.png    |  Bin 0 -> 42585 bytes
+ pyproject.toml                           |   29 +
+ src/fastcloc/__init__.py                 |   16 +
+ src/fastcloc/api.py                      |   27 +
+ src/fastcloc/cli.py                      |   56 +
+ src/fastcloc/comments.py                 |  143 ++
+ src/fastcloc/counter.py                  |   60 +
+ src/fastcloc/detector.py                 |   71 +
+ src/fastcloc/diff.py                     |   42 +
+ src/fastcloc/languages.py                | 3352 ++++++++++++++++++++++++++++++
+ src/fastcloc/models.py                   |  287 +++
+ src/fastcloc/project.py                  |   55 +
+ src/fastcloc/py.typed                    |    0
+ src/fastcloc/reporters.py                |   74 +
+ src/fastcloc/scanner.py                  |   33 +
+ src/fastcloc/security.py                 |   57 +
+ src/fastcloc/utils.py                    |   52 +
+ tests/fixtures/app.js                    |    8 +
+ tests/fixtures/example.py                |    8 +
+ tests/test_cli_integration.py            |   36 +
+ tests/test_counter.py                    |   44 +
+ tests/test_detector.py                   |   20 +
+ tests/test_reporters.py                  |   33 +
+ tests/test_security.py                   |   24 +
+ tools/count_effective_loc.py             |   29 +
+ 40 files changed, 4923 insertions(+)

@@ -1,0 +1,18 @@
+test_cli_json_fixture (test_cli_integration.CliIntegrationTests.test_cli_json_fixture) ... ok
+test_cli_table_fixture (test_cli_integration.CliIntegrationTests.test_cli_table_fixture) ... ok
+test_c_block_comment_count (test_counter.CounterTests.test_c_block_comment_count) ... ok
+test_path_count_fixture (test_counter.CounterTests.test_path_count_fixture) ... ok
+test_python_text_count (test_counter.CounterTests.test_python_text_count) ... ok
+test_extension_detection (test_detector.DetectorTests.test_extension_detection) ... ok
+test_shebang_detection (test_detector.DetectorTests.test_shebang_detection) ... ok
+test_csv_report (test_reporters.ReporterTests.test_csv_report) ... ok
+test_json_report (test_reporters.ReporterTests.test_json_report) ... ok
+test_markdown_report (test_reporters.ReporterTests.test_markdown_report) ... ok
+test_table_report (test_reporters.ReporterTests.test_table_report) ... ok
+test_binary_detection (test_security.SecurityTests.test_binary_detection) ... ok
+test_max_size_rejection (test_security.SecurityTests.test_max_size_rejection) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 3.550s
+
+OK
